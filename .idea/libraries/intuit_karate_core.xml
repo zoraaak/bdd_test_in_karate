@@ -1,0 +1,70 @@
+<component name="libraryTable">
+  <library name="intuit.karate.core" type="repository">
+    <properties maven-id="com.intuit.karate:karate-core:1.2.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/intuit/karate/karate-core/1.2.0/karate-core-1.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/js/js/21.2.0/js-21.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.14.RELEASE/thymeleaf-3.0.14.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.26/ognl-3.1.26.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/linecorp/armeria/armeria/1.13.4/armeria-1.13.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.70.Final/netty-codec-http2-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-haproxy/4.1.70.Final/netty-codec-haproxy-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.70.Final/netty-resolver-dns-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.70.Final/netty-codec-dns-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.70.Final/netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.70.Final/netty-resolver-dns-classes-macos-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.70.Final/netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-tcnative-boringssl-static/2.0.44.Final/netty-tcnative-boringssl-static-2.0.44.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.70.Final/netty-handler-proxy-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.70.Final/netty-codec-socks-4.1.70.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/aayushatharva/brotli4j/brotli4j/1.6.0/brotli4j-1.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/aayushatharva/brotli4j/native-windows-x86_64/1.6.0/native-windows-x86_64-1.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.9.2/antlr4-runtime-4.9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.1/asm-9.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/info/picocli/picocli/4.6.1/picocli-4.6.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.108/classgraph-4.8.108.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
