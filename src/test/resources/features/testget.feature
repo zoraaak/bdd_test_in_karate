@@ -1,10 +1,3 @@
-Feature: Get kloia
-  Scenario: Get request
-    Given url 'https://www.kloia.com/'
-    #And path 'blog', 'karate'
-    When method GET
-    Then status 200
-
 Feature: Get users
   Scenario: Load all users from page one
     Given url 'https://reqres.in/'
@@ -29,3 +22,19 @@ Feature: Get users
     When method GET
     Then status 404
 
+
+  Scenario: Load single users from page one
+    Given url 'https://reqres.in/'
+    And path 'api', 'users'
+    And param page = 1
+    When method GET
+    Then status 200
+    And match response contains { page:1 }
+
+
+  Scenario: Get single RESOURCE
+    Given url 'https://reqres.in/'
+    And path 'api', 'unknown', '2'
+    When method GET
+    Then status 200
+    And match response contains deep {data: {id: 2}  }
