@@ -38,3 +38,5 @@ Feature: Get users
     When method GET
     Then status 200
     And match response contains deep {data: {id: 2}  }
+
+
