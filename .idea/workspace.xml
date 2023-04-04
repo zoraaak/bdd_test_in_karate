@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efaac137-82a8-4ed4-b5f8-bbf604aa27e9" name="Changes" comment="Add new scenario single RESOURCE&#10;File repair, delete key word 'feature'">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/gettest.feature" afterDir="false" />
+    <list default="true" id="efaac137-82a8-4ed4-b5f8-bbf604aa27e9" name="Changes" comment="Add new scenario create empolyee">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/testput.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/testget.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/testget.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gettest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/testpost.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,51 +40,51 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Karate Feature.gettest.feature: Create empolyee">
-    <configuration name="gettest.feature: Create employee" type="karate" temporary="true">
+  <component name="RunManager" selected="Karate Feature.testput.feature: testput.feature">
+    <configuration name="testpost.feature: Create empolyee" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/resources/features/gettest.feature:11" />
+          <option value="$PROJECT_DIR$/src/test/resources/features/testpost.feature:3" />
         </list>
       </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gettest.feature: Create empolyee" type="karate" temporary="true">
+    <configuration name="testput.feature: testput.feature" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/resources/features/gettest.feature:3" />
+          <option value="$PROJECT_DIR$/src/test/resources/features/testput.feature" />
         </list>
       </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testget.feature: Get single RESOURCE" type="karate" temporary="true">
+    <configuration name="testput.feature: update job empolyee (1)" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/resources/features/testget.feature:35" />
+          <option value="$PROJECT_DIR$/src/test/resources/features/testput.feature:13" />
         </list>
       </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testget.feature: Get user that doesn't exist" type="karate" temporary="true">
+    <configuration name="testput.feature: update job empolyee" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/resources/features/testget.feature:18" />
+          <option value="$PROJECT_DIR$/src/test/resources/features/testput.feature:15" />
         </list>
       </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testget.feature: testget.feature" type="karate" temporary="true">
+    <configuration name="testput.feature: update name empolyee" type="karate" temporary="true">
       <option name="karateSearchPaths">
         <list>
-          <option value="$PROJECT_DIR$/src/test/resources/features/testget.feature" />
+          <option value="$PROJECT_DIR$/src/test/resources/features/testput.feature:3" />
         </list>
       </option>
       <method v="2">
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Karate Feature.gettest.feature: Create empolyee" />
-        <item itemvalue="Karate Feature.gettest.feature: Create employee" />
-        <item itemvalue="Karate Feature.testget.feature: Get single RESOURCE" />
-        <item itemvalue="Karate Feature.testget.feature: testget.feature" />
-        <item itemvalue="Karate Feature.testget.feature: Get user that doesn't exist" />
+        <item itemvalue="Karate Feature.testput.feature: testput.feature" />
+        <item itemvalue="Karate Feature.testput.feature: update job empolyee (1)" />
+        <item itemvalue="Karate Feature.testpost.feature: Create empolyee" />
+        <item itemvalue="Karate Feature.testput.feature: update job empolyee" />
+        <item itemvalue="Karate Feature.testput.feature: update name empolyee" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680092841760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add new scenario create empolyee">
+      <created>1680541943844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680541943844</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +156,7 @@
     <MESSAGE value="initial repository commit" />
     <MESSAGE value="initial repository commit 1" />
     <MESSAGE value="Add new scenario single RESOURCE&#10;File repair, delete key word 'feature'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new scenario single RESOURCE&#10;File repair, delete key word 'feature'" />
+    <MESSAGE value="Add new scenario create empolyee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new scenario create empolyee" />
   </component>
 </project>
