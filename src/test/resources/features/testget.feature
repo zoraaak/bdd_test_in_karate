@@ -39,4 +39,3 @@ Feature: Get users
     Then status 200
     And match response contains deep {data: {id: 2}  }
 
-
