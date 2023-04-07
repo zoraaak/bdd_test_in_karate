@@ -3,14 +3,6 @@ Background:
   * def user = {"name" : 'Filip' , "job" :'personaltrainer' }
 
 
-  Scenario: Delete empolyee
-    Given url 'https://reqres.in/'
-    And path 'api', 'users', 'id'
-    When request {"name" :'Mariuszek', "job" :'qaengineer', "id" : 730 }
-    And method delete
-    Then status 204
-
-
 
   Scenario: Create empolyee and update name and job using put
     Given url 'https://reqres.in/'
@@ -59,3 +51,8 @@ Background:
     And match response == ''
 
 
+  Scenario: Delete user does not exist
+    Given url 'https://reqres.in/'
+    And path 'api', 'users', '999999999999999999999'
+    And method delete
+    Then status 204
