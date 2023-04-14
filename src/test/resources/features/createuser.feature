@@ -1,4 +1,4 @@
-Feature: create empolyee
+Feature: Create empolyee
 
   Scenario: Create empolyee
     Given url 'https://reqres.in/'
