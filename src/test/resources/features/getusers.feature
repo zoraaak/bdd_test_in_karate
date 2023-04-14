@@ -1,4 +1,5 @@
 Feature: Get users
+
   Scenario: Load all users from page one
     Given url 'https://reqres.in/'
     And path 'api', 'users'

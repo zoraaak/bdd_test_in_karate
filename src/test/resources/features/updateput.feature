@@ -1,4 +1,4 @@
-Feature: update employee
+Feature: Update employee
 
   Scenario: update name empolyee
     Given url 'https://reqres.in/'

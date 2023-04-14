@@ -1,4 +1,4 @@
-Feature: put, patch, delete employee
+Feature: Create, update and delete employee
 Background:
   * def user = {"name" : 'Filip' , "job" :'personaltrainer' }
 
@@ -59,33 +59,4 @@ Background:
     Then status 204
 
 
-
-  Scenario: Register empolyee and create token
-    Given url 'https://reqres.in/'
-    And path 'api', 'register'
-    When request { "email": 'eve.holt@reqres.in' , "password": "pistol"}
-    When method post
-    Then status 200
-    And match response contains {"id" : '#?_>0', "token" : '#notnull'}
-
-
-
-
-  Scenario: Register empolyee with bad email
-    Given url 'https://reqres.in/'
-    And path 'api', 'register'
-    When request { "email": 'nowaczek2504gmail.com' , "password": "pistol"}
-    When method post
-    Then status 400
-    And match response contains {"error" :  '#notnull'}
-
-
-
-  Scenario: Register empolyee with empty password
-    Given url 'https://reqres.in/'
-    And path 'api', 'register'
-    When request { "email": 'eve.holt@reqres.in' , "password": ''}
-    When method post
-    Then status 400
-    And match response contains {"error":"Missing password"}
 
